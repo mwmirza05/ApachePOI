@@ -71,7 +71,7 @@ public class Config_Excel {
         return data.split("&");
     }
 
-    // this method will run all the te
+    // this method will run all the cases
     public static void runAllTests(String sheettName){
 
         String methodsCell ="";

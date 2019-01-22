@@ -12,8 +12,15 @@ import java.util.ArrayList;
 
 public class ExcelTest {
 //
-    @Test
-    public void check(){
-        Config_Excel.runAllTests("testData");
-    }
+public static void main(String[] args) {
+    String g = Config_Excel.getMethodsCell("testData","test_01" );
+    System.out.println(g);
+    String h = Config_Excel.getMethodsCell("testData2","test_01" );
+    System.out.println(h);
+}
+
+
+    //public void check(){Config_Excel.getMethodsCell("testData","test_01" );
+
+
 }
